@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/luis.gmsantos5/Documents/ProjetoAndroid/MyApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2545" />
+        <entry key="..\:/Users/luis.gmsantos5/Documents/ProjetoAndroid/MyApp/app/src/main/res/drawable/ic_baseline_alternate_email.xml" value="0.2545" />
+        <entry key="..\:/Users/luis.gmsantos5/Documents/ProjetoAndroid/MyApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2545" />
         <entry key="..\:/Users/luis.gmsantos5/Documents/ProjetoAndroid/MyApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
