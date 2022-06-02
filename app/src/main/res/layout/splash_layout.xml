@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobreActivity">
+
+    <TextView
+        android:id="@+id/txtTextoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto A"
+        android:textColor="#FFA4A4"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTexto "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtTextoA"
+        android:text="Texto B"
+        android:textColor="#DC0000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTextoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTextoA"
+        android:text="Texto C"
+        android:textColor="#CA7B06"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTextoD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTextoA"
+        android:layout_toRightOf="@id/txtTextoC"
+        android:text="Texto D"
+        android:textColor="#FFA6A6"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+</androidx.constraintlayout.widget.ConstraintLayout>

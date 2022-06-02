@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="15dp"
+
         android:background="#8c8c"
         android:orientation="vertical">
 
@@ -36,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_baseline_alternate_email"
-            android:hint="Ensira o seu nome "
+            android:hint="@string/ensira_o_seu_nome"
             android:inputType="textEmailAddress"
             android:padding="10sp" />
 
@@ -44,7 +45,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="senha"
+            android:text="@string/senha"
             android:textColor="#0a2b87"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -53,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_baseline_lock"
-            android:hint="Ensira sua senha"
+            android:hint="@string/ensira_sua_senha"
             android:inputType="numberPassword"
             android:padding="10sp" />
 
@@ -67,7 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Entrar"
+                android:text="@string/entrar"
                 android:textAllCaps="false" />
 
             <Button
@@ -75,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sair"
+                android:text="@string/sair"
                 android:textAllCaps="false" />
         </LinearLayout>
     </LinearLayout>
